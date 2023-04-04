@@ -8,8 +8,8 @@ class Dinosaur:
 
     def attack_robot(self, robot):
         robot.power -= self.attack_power
-        print (f'{Dinosaur.name} attacks {Robot.name} with a bite')
-        print (f'{Robot.name} has {robot.power} remaining')
+        print (f'{Dinosaur.name} attacks {Robot.name} with a bite.')
+        print (f'{Robot.name} has {robot.power} remaining.')
 
 
     def set_name(self):
