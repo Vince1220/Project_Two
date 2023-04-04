@@ -18,6 +18,7 @@ class Robot:
     def set_weapon (self):
         self.active_weapon = Weapon.name
         print(Weapon.name)
+        #
         
 
 
